@@ -1,0 +1,92 @@
+h1 {
+	text-align: center;
+	color: white;
+	font-variant: small-caps;
+}
+
+body {
+	background: url(backgrounds/dark-grey-terrazzo.png) repeat 0 0;
+	color: #b8a5d9;
+	padding: 0px;
+	margin-left: 0px;
+	display: block;
+}
+
+#contents{
+	max-width: 80%;
+	text-align: center;
+	margin-left: 180px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Corben', Georgia, Times, serif;
+}
+p, nav ul li, div {
+    font-family: 'Nobile', Helvetica, Arial, sans-serif;
+}
+
+.defImage {
+	max-width: 70%;
+	height: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: double black;
+    text-align: center;
+}
+
+#nav {
+	border-color: #888;
+	color: pink;
+	text-align: left;
+	border-style: solid;
+	font-size: larger;
+	font-weight: bold;
+    position: fixed;
+    top: 0px;
+    max-width: 160px;
+    margin-left: 0px;
+    padding: 0px;
+    margin-right: 55px;
+}
+
+
+#nav ul li a{
+	border-width: 0px;
+	display: block;
+	margin-right: 250px;
+	padding: 5px;
+	padding-right: 0px;
+	list-style-type: none;
+	padding-left: 5px;
+	color: pink;
+	width: 100%;
+	max-width: 25%;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+h1{
+	background-color: #222;
+    margin: 1px 1px;
+}
+
+h3{
+    background-color: #444;
+}
+
+ul {
+	text-align: left;
+	list-style: inside;
+	list-style-type: none;
+	display: inline-block;
+}
+
+a {
+	color: white
+}
